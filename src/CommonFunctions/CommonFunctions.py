@@ -22,11 +22,11 @@ class CommonFunctions(object):
         desired_caps = {}
         desired_caps['device'] = 'android'
         desired_caps['platformName'] = 'Android'
-        desired_caps['platformVersion'] = '4.4'
-        desired_caps['deviceName'] = 'MI_NOTE_LTE'
-        desired_caps['app'] = 'C:\\Users\\li_min\\Desktop\\apptestcase\\F_IfengNewsV524_V5.2.4_1603.apk'
+        desired_caps['platformVersion'] = '5.1'
+        desired_caps['deviceName'] = ''
+        #desired_caps['app'] = 'C:\\Users\\li_min\\Desktop\\apptestcase\\F_IfengNewsV524_V5.2.4_1603.apk'
         desired_caps['appPackage'] = 'com.ifeng.news2'
-        desired_caps['appActivity'] = 'com.ifeng.news2.activity.SplashActivity'
+        desired_caps['appActivity'] = '.activity.SplashActivity'
         DRIVER = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
         time.sleep(5)
         

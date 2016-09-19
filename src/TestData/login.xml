@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestData>
+    <login name="denglu">
+        <!-- 账号 -->
+        <username>13802092336</username>
+        <password>135790</password>
+        
+        <!-- 验证关键字 -->
+        <keyword>com.ifeng.news2:id/txt_user_sign_in</keyword>
+        <keywordvalue>每日签到</keywordvalue>
+               
+    </login>
+</TestData>
